@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/Guerra.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #000;
+  }
+  
+  .conteudo-jogo {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000d6;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.846);
+  }
+  
+  #container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .resultado {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #resultadoBtn {
+    background-color: #0015b1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #resultadoBtn:hover {
+    background-color: #1758c0;
+  }
